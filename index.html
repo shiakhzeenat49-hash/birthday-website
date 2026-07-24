@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow:hidden;
+}
+
+.container{
+text-align:center;
+color:white;
+padding:20px;
+}
+
+h1{
+font-size:45px;
+animation: glow 2s infinite alternate;
+}
+
+p{
+margin-top:20px;
+font-size:22px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+font-size:18px;
+cursor:pointer;
+background:white;
+color:#ff4d6d;
+font-weight:bold;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px white;
+}
+to{
+text-shadow:0 0 30px yellow;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+<h1>🎂 Happy Birthday ❤️</h1>
+
+<p>Today is your special day 💖</p>
+
+<button onclick="showMessage()">Click Here 🎁</button>
+</div>
+
+<script>
+function showMessage(){
+alert("Happy Birthday ❤️\nWishing you endless happiness and love!");
+}
+</script>
+
+</body>
+</html>
